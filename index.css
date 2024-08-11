@@ -1,0 +1,1929 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imagen-enlace{
+  width: 100%;
+  height: 100px;  
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #c2c2c2;
+    font-family: Arial, sans-serif;
+    background-color:#e3e3e3 ;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #8a7d9b;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial;
+    padding-right: 10px;
+}
+.logo {
+    max-height: 60px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 16px;
+}
+.iconifi{
+    margin-top: 3px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #cea0ea;
+    border-radius: 20px;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Ajustar para tener en cuenta la altura del header */
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    color: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif,'Arial Narrow Bold', sans-serif;
+}
+
+.anuncio {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+}
+
+.text-content {
+    position: absolute;
+    top: 40%;
+    right:40%;
+    bottom: 50%;
+    left: 10%;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.text-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color:#E6D3FF ;
+    text-decoration: none;
+    position: absolute;
+    margin-right: 47%;
+    margin-bottom: -10px;
+    bottom: 0.1%;
+    right: -0.1%;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #8e7ba8;
+}
+
+.logo-container {
+   position: absolute;
+   top: 40%;
+   right: 0%;
+   left: 0;
+}
+
+.logo-icon {
+    border: 7px solid white;
+    max-width:400px;
+    position: absolute;
+    width:1000% ;
+    left: 1000%;
+    top:40%;
+    right: 50%;
+    bottom: 40%;
+    left: 60%;
+    border-radius: 50%;
+    box-shadow: 8px 10px 20px rgb(0, 0, 0);
+}
+.section {
+    top: 120%;
+    right:0%;
+    display: flex;
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    height: 60%;
+    justify-content: space-around;
+    background-color: #DFD1E2;
+}
+.box {
+    background-color: #d3b6d6;
+    border-radius: 20px;
+    padding: 45px;
+    width: 30%;
+    text-align: center;
+}
+.icono{
+  position: absolute;
+  top: 8%;
+  left: 4%;
+  
+}
+.cheque{
+    position: absolute;
+    top: 8%;
+    left: 36.5%;
+    
+  }
+.dedo{
+    position: absolute;
+    top: 8%;
+    left: 70%;
+    
+}
+.box h3 {
+    margin-bottom: 50px;
+}
+.bottom-section {
+    position: absolute;
+    margin-top: -10%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.bottom-section h2 {
+    margin-bottom: 20px;
+    left: 30px;
+    position: absolute;
+}
+.texto h2{
+    margin-top: 30px;
+    left: 18px;
+}
+.bottom-info {
+    color: #cea0ea;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+p{
+   color: #000;
+   margin-top: 20px;
+   background-position: center;
+}
+.bottom-info div {
+    width: 30%;
+    margin-right: 50%;
+}
+.circulo {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 120px;
+    justify-content: space-around;
+    width: 80%;
+}
+.circle {
+    background-color:#d3b6d6 ;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.ultima{
+    min-height: 400px;
+    margin-left: 230px;
+    position: relative;
+    margin-right:20%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.des{ 
+    text-align: center;
+}
+.boton{
+    display: flex;
+    margin-right: -20px;
+    gap: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bo{
+    text-decoration: none;
+    background-color: #cea0ea;
+    height: 50px;
+    width: 900px;
+    border-radius: 20px;
+    border-color: #cea0ea;
+}
+.imagen{
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-right: 0px;
+    display: flex;
+    gap: 40px;
+    flex-direction: vertical;
+    width: 20px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.im{
+    float: left;
+    margin-left: -240px;
+    margin-right: 100%;
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    transition: transform 0.2s;
+}
+.ver{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.mas{
+    margin-right: 8%;
+    margin-left: 1%;
+    justify-content: center;
+}
+.mas1{
+    margin-right: 30%;
+    margin-left: 1%;
+    justify-content: center;
+}
+.mas2{
+    margin-right: 30%;
+    margin-left: 1%;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.ico{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+.icol{
+    margin-bottom: 0px;
+    left: 40px;
+    margin-right: -60%;
+    left: 30%;
+}
+.red{
+    margin-bottom: 0px;
+    left: 10px;
+    margin-right: -100%;
+}
+.footer{
+   padding-top: -40%;
+   position: absolute;
+   bottom: -270%;
+   margin-left: 0%;
+   background-color: #c2c2c2;
+   width: 100%;
+   text-align: left;
+
+}
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-column {
+    flex: 1;
+    margin: 10px;
+}
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.footer-column p, .footer-column a {
+    margin: 5px 0;
+    color: #333;
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.footer-bottom p {
+    margin: 2px 0;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 320px) and (max-width: 420px) {
+    .imagen-enlace{
+        width: 100%;
+        height: 50px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .logo {
+        max-width: 50px;
+    }
+    
+    .nav {
+        width: 100%;
+        background-color: #8a7d9b;
+    }
+    
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0; /* Elimina el margen */
+    }
+    
+    .nav li {
+        margin: 5px 0;
+        text-align: center; /* Centra los elementos */
+    }
+    
+    .main-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .main{
+    font-size: 10px;
+    }
+    .fon{
+        width: 100%;
+        height: 400px;
+    }
+    .logo-container {
+        position: absolute;
+        top: 58%;
+        right: 40%;
+        margin-left: -3%;
+    }
+    .logo-icon {
+        border: 7px solid white;
+        max-width:400px;
+        position: absolute;
+        width:52% ;
+        left: 30%;
+        top:80%;
+        right: 50%;
+        bottom: 40%;
+        left: 60%;
+        border-radius: 50%;
+        box-shadow: 8px 10px 20px rgb(0, 0, 0);
+    }
+    .anuncio {
+        display: flex;
+        align-items: center;
+        max-width: 50px;
+    }
+    .text-content {
+        text-align: center;
+        line-height: 15px;
+        position: absolute;
+        top: 70%;
+        bottom: 20%;
+        margin-left: 16%;
+        margin-right: -12%;
+        margin-top: 30px;
+    }
+    .text-content h2 {
+        font-size: 0.7em;
+        margin-bottom: 10px;
+    }
+    .btn {
+        background-color:#E6D3FF ;
+        text-decoration: none;
+        position: absolute;
+        border: 1px solid black;
+        margin-right: 43%;
+        bottom: -2%;
+        color: rgb(0, 0, 0);
+        padding: 3px 4px;
+        font-size: 0.5em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .btn a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .btn:hover {
+        background-color: #8e7ba8;
+    }
+    .section {
+        flex-direction: column;
+        height: 250%;
+        top: 105%;
+        position:absolute;
+    }
+    .box {
+        margin-left: 10%;
+        width: 80%;
+        height: 50%;
+        margin-bottom: 20px;
+    }
+    .tt{
+        margin-top: 10px;
+    }
+
+    .icono, .cheque, .dedo {
+        font-size: 0.8em;
+        position: static;
+        margin-top: -20%;
+    }
+    .bottom-section {
+        margin-top: 210%;
+        height: 20%;
+        padding: 10px;
+        position: relative;
+    }
+
+    .bottom-section h2 {
+        margin-left: 10%;
+        position: static;
+        margin: 10px 0;
+    }
+
+    .texto h2 {
+        position: static;
+    }
+
+    .tx{
+        margin-left: -15%;
+    }
+    .tex{
+        margin-left: -15%;
+        margin-top: 10%;
+    }
+    .bottom-info {
+        flex-direction: column;
+        margin-top: 10px;
+        position: static;
+        justify-content: center;
+        text-align: center;
+    }
+    .circulo {
+        flex-direction: column; /* Cambia a disposición vertical */
+        align-items: center; /* Alinea los elementos al centro */
+        margin-left: 0; /* Ajusta el margen izquierdo */
+        width: 100%; /* Usa todo el ancho disponible */
+    }
+
+    .circle {
+        width: 200px; /* Reduce el tamaño del círculo */
+        height: 200px;
+        margin-bottom: 20px; /* Añade margen inferior entre círculos */
+    }
+    .ultima {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 10px; /* Añadir algo de relleno */
+    }
+
+    .boton {
+        flex-direction: column; /* Coloca los botones en una columna */
+        gap: 20px; /* Reduce el espacio entre los botones */
+    }
+
+    .bo {
+        margin-left: 2%;
+        width: 90%; /* Ajusta el ancho del botón al 100% del contenedor */
+        height: 40px; /* Reduce la altura para adaptarse mejor a las pantallas más pequeñas */
+    }
+
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+
+    .ver {
+        flex-direction: column; /* Coloca los elementos verticalmente */
+    }
+
+    .mas,
+    .mas1,
+    .mas2 {
+        margin-right: 5%; /* Reduce el margen derecho */
+        margin-left: 5%; /* Alinea al centro */
+    }
+
+    .ico {
+        margin-left: 0;
+        margin-top: 20px; /* Reduce el margen superior */
+    }
+
+    .icol,
+    .red {
+        margin-right: 0;
+        left: auto;
+        right: auto;
+    }
+    .footer {
+        margin-top: 10%;
+        padding-top: 30px;
+        position: relative;
+        bottom: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        flex: none;
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    .footer-column h3 {
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+    @media (min-width: 337px) and (max-width: 420px){
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 72%;
+            bottom: 20%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.7em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 43%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 3px 4px;
+            font-size: 0.5em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .imagen {
+            flex-direction: column; /* Apilar las imágenes verticalmente */
+            gap: 20px; /* Espacio entre las imágenes */
+        }
+    
+        .im {
+            margin-top: -50px;
+            width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+            height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+            margin-left: 80%;
+    
+        }
+    }
+    @media (min-width: 402px) and (max-width: 420px){
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 75%;
+            bottom: 20%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.7em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 43%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 3px 4px;
+            font-size: 0.5em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+   }
+   @media (min-width: 402px) and (max-width: 420px){
+    .text-content {
+        text-align: center;
+        line-height: 15px;
+        position: absolute;
+        top: 76%;
+        bottom: 20%;
+        margin-left: 16%;
+        margin-right: -12%;
+        margin-top: 30px;
+    }
+    .text-content h2 {
+        font-size: 0.7em;
+        margin-bottom: 10px;
+    }
+    .btn {
+        background-color:#E6D3FF ;
+        text-decoration: none;
+        position: absolute;
+        border: 1px solid black;
+        margin-right: 43%;
+        bottom: -2%;
+        color: rgb(0, 0, 0);
+        padding: 3px 4px;
+        font-size: 0.5em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .btn a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .btn:hover {
+        background-color: #8e7ba8;
+    }
+}
+}
+@media (min-width: 420px) and (max-width: 1200px) {
+    .imagen-enlace{
+        width: 100%;
+        height: 50px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .logo {
+        max-width: 50px;
+    }
+    
+    .nav {
+        width: 100%;
+        background-color: #8a7d9b;
+    }
+    
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0; /* Elimina el margen */
+    }
+    
+    .nav li {
+        margin: 5px 0;
+        text-align: center; /* Centra los elementos */
+    }
+    
+    .main-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .main{
+    font-size: 10px;
+    }
+    .fon{
+        width: 100%;
+        height: 400px;
+    }
+    .logo-container {
+        position: absolute;
+        top: 60%;
+        right: 37%;
+        margin-left: -3%;
+    }
+    .logo-icon {
+        border: 7px solid white;
+        max-width:400px;
+        position: absolute;
+        width:42% ;
+        left: 30%;
+        top:80%;
+        right: 50%;
+        bottom: 40%;
+        left: 60%;
+        border-radius: 50%;
+        box-shadow: 8px 10px 20px rgb(0, 0, 0);
+    }
+    .anuncio {
+        display: flex;
+        align-items: center;
+        max-width: 50px;
+    }
+    .text-content {
+        text-align: center;
+        line-height: 15px;
+        position: absolute;
+        top: 76%;
+        bottom: 20%;
+        margin-left: 16%;
+        margin-right: -12%;
+        margin-top: 30px;
+    }
+    .text-content h2 {
+        font-size: 0.6em;
+        margin-bottom: 10px;
+    }
+    .btn {
+        background-color:#E6D3FF ;
+        text-decoration: none;
+        position: absolute;
+        border: 1px solid black;
+        margin-right: 41%;
+        bottom: -2%;
+        color: rgb(0, 0, 0);
+        padding: 10px 10px;
+        font-size: 1.0em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .btn a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .btn:hover {
+        background-color: #8e7ba8;
+    }
+    .section {
+        flex-direction: column;
+        height: 250%;
+        top: 105%;
+        position:absolute;
+    }
+    .box {
+        margin-left: 10%;
+        width: 80%;
+        height: 50%;
+        margin-bottom: 20px;
+    }
+    .tt{
+        margin-top: 10px;
+    }
+
+    .icono, .cheque, .dedo {
+        font-size: 0.8em;
+        position: static;
+        margin-top: 10%;
+    }
+    .bottom-section {
+        margin-top: 170%;
+        height: 20%;
+        padding: 10px;
+        position: relative;
+    }
+
+    .bottom-section h2 {
+        margin-left: 10%;
+        position: static;
+        margin: 10px 0;
+    }
+
+    .texto h2 {
+        position: static;
+    }
+
+    .tx{
+        margin-left: -15%;
+
+    }
+    .tex{
+        margin-left: -15%;
+        margin-top: 10%;
+    }
+    .bottom-info {
+        flex-direction: column;
+        margin-top: 10px;
+        position: static;
+        justify-content: center;
+        text-align: center;
+    }
+    .circulo {
+        flex-direction: column; /* Cambia a disposición vertical */
+        align-items: center; /* Alinea los elementos al centro */
+        margin-left: 0; /* Ajusta el margen izquierdo */
+        width: 100%; /* Usa todo el ancho disponible */
+    }
+
+    .circle {
+        width: 200px; /* Reduce el tamaño del círculo */
+        height: 200px;
+        margin-bottom: 20px; /* Añade margen inferior entre círculos */
+    }
+    .ultima {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 10px; /* Añadir algo de relleno */
+    }
+
+    .boton {
+        flex-direction: column; /* Coloca los botones en una columna */
+        gap: 20px; /* Reduce el espacio entre los botones */
+    }
+
+    .bo {
+        margin-left: 2%;
+        width: 90%; /* Ajusta el ancho del botón al 100% del contenedor */
+        height: 40px; /* Reduce la altura para adaptarse mejor a las pantallas más pequeñas */
+    }
+
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 9%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+
+    .ver {
+        flex-direction: column; /* Coloca los elementos verticalmente */
+    }
+
+    .mas,
+    .mas1,
+    .mas2 {
+        margin-right: 5%; /* Reduce el margen derecho */
+        margin-left: 5%; /* Alinea al centro */
+    }
+
+    .ico {
+        margin-left: 0;
+        margin-top: 20px; /* Reduce el margen superior */
+    }
+
+    .icol,
+    .red {
+        margin-right: 0;
+        left: auto;
+        right: auto;
+    }
+    .footer {
+        margin-top: 10%;
+        padding-top: 30px;
+        position: relative;
+        bottom: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        flex: none;
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    .footer-column h3 {
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+    @media (min-width: 483px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 37%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:42% ;
+            left: 30%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 75%;
+            bottom: 20%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 40%;
+            bottom: -1%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 150%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+         .bottom-info {
+            margin-left: 43%;
+         }
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 16%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    }
+    @media (min-width: 483px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 37%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:42% ;
+            left: 30%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 78%;
+            bottom: 20%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 40%;
+            bottom: -3%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 150%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+        .bottom-info {
+            margin-left: 43%;
+         }
+        
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 18%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    }
+    @media (min-width: 596px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 34%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:32% ;
+            left: 30%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 75%;
+            bottom: 20%;
+            margin-left: 17%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 43%;
+            bottom: -1%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 120%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+
+         .bottom-info {
+           margin-left: 43%;
+        }
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 20%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    }
+    @media (min-width: 596px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 34%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:32% ;
+            left: 30%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 77%;
+            bottom: 20%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 44%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 120%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+        .bottom-info {
+            margin-left: 43%;
+         }
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 26%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    } 
+    @media (min-width: 699px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 34%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:32% ;
+            left: 30%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 77%;
+            bottom: 20%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 44%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 110%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+        .bottom-info {
+            margin-left: 43%;
+         }
+        
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 26%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    } 
+    @media (min-width: 720px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 34%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:28% ;
+            left: 32%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 77%;
+            bottom: 13%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 44%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 100%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+        .bottom-info {
+            margin-left: 43%;
+         }
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 26%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    } 
+    @media (min-width: 840px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 30%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:24% ;
+            left: 35%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 79%;
+            bottom: 13%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 44%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 100%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+        .bottom-info {
+            margin-left: 43%;
+         }
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 28%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    } 
+    @media (min-width: 900px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 26%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:20% ;
+            left: 35%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 79%;
+            bottom: 13%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 44%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 90%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+        .bottom-info {
+           margin-left: 43%;
+        }
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 28%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    } 
+    @media (min-width: 840px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 26%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:20% ;
+            left: 35%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 79%;
+            bottom: 13%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 44%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 90%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+        .bottom-info {
+           margin-left: 43%;
+        }
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 28%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    } 
+    @media (min-width: 900px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 26%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:20% ;
+            left: 35%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 79%;
+            bottom: 13%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 44%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 90%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+        .bottom-info {
+           margin-left: 43%;
+        }
+        .boton{
+            margin-left: 10%;
+        }
+    
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 28%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    } 
+    @media (min-width: 1000px) and (max-width: 1200px){
+        .logo-container {
+            position: absolute;
+            top: 57%;
+            right: 26%;
+            margin-left: -3%;
+        }
+        .logo-icon {
+            border: 7px solid white;
+            max-width:400px;
+            position: absolute;
+            width:20% ;
+            left: 35%;
+            top:80%;
+            right: 50%;
+            bottom: 40%;
+            left: 60%;
+            border-radius: 50%;
+            box-shadow: 8px 10px 20px rgb(0, 0, 0);
+        }
+        .text-content {
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 79%;
+            bottom: 13%;
+            margin-left: 16%;
+            margin-right: -12%;
+            margin-top: 30px;
+        }
+        .text-content h2 {
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color:#E6D3FF ;
+            text-decoration: none;
+            position: absolute;
+            border: 1px solid black;
+            margin-right: 44%;
+            bottom: -2%;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            font-size: 1.0em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .btn:hover {
+            background-color: #8e7ba8;
+        }
+        .bottom-section {
+            margin-top: 90%;
+            height: 20%;
+            padding: 10px;
+            position: relative;
+        }
+        .boton{
+            margin-left: 10%;
+        }
+    
+        .bottom-section h2 {
+            margin-left: 10%;
+            position: static;
+            margin: 10px 0;
+        }
+        .bottom-info {
+           margin-left: 43%;
+        }
+    .imagen {
+        flex-direction: column; /* Apilar las imágenes verticalmente */
+        gap: 20px; /* Espacio entre las imágenes */
+        margin-left: 28%;
+    }
+
+    .im {
+        margin-top: -50px;
+        width: 290px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 100%; /* Permitir que la altura se ajuste proporcionalmente */
+        margin-left:14%;
+
+    }
+    } 
+}
